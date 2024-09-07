@@ -1,0 +1,108 @@
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+body{
+    font-family: 'Nunito Regular';
+}
+
+/* ======= start Heading ======= */
+
+header{
+background: url(../images/HeaderBg.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+.nav{
+display: flex;
+justify-content: space-between;
+padding: 25px 0;
+}
+.logo-wrapper{
+
+}
+.logo{
+
+}
+.main-menu{
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+z-index: 999;
+}
+.menu-item{
+margin: 0 25px;
+}
+.menu-link{
+
+}
+.login-btn {
+    background-color: #fff;
+    color: #93A5FF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Nunito Bold';
+}
+.login-btn span{
+    margin-left: 10px;
+}
+.menu-icon{
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+    color: #fff;
+}
+
+/* ====== Header Content ====== */
+
+.header-content{
+    margin-top: 80px;
+}
+.header-title{
+    font-family: Roboto;
+    font-size: 40px;
+}
+.header-caption{
+    font-size: 21px;
+    opacity: 0.8;
+}
+.domain{
+    margin-top: 40px;
+    
+}
+.header-txt{
+    background-color: #384170;
+    color: #fff;
+    padding: 14px 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-right: 2px;
+    max-width: 290px;
+    width: 100%;
+}
+.header-txt::placeholder{
+    color: #fff;
+}
+.header-domians{
+    background-color: #384170;
+    color: #fff;
+    padding: 11px 20px 11px 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.header-btn{
+    margin-left: 25px;
+}
+.flex-wrapper{
+    flex-basis: 380px;
+}
