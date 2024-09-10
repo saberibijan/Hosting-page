@@ -27,6 +27,15 @@
     .header-txt{
         max-width: 100%;
     }
+    .service-col-1{
+        order: 1;
+    }
+    .service-col-2{
+        order: 0;
+    }
+    .services-img{
+        margin-bottom: 35px;
+    }
 }
 @media only screen and (max-width: 768px) {
     .img{
@@ -38,6 +47,12 @@
     .header-content {
         margin-top: 0px;
     }
+    .plan-top{
+        border-top: 8px solid #93A5FF;
+    }
+    .plan-bottom{
+        height: 239px;
+    }
 }
 @media only screen and (max-width: 576px) {
     .header-title{
@@ -46,4 +61,12 @@
     .header-caption{
         font-size: 17px;
     }
+    .services-content h3,
+    .services-content p{
+        font-size: 15px;
+    }
+    .start-img-fix{
+        max-width: 150px;
+    }
+    
 }
