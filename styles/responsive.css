@@ -13,7 +13,7 @@
         transition: 0.3s;
     }
     .menu-item{
-        margin: 25px 15px;
+        margin: 25px 15px !important;
     }
     .login-btn{
         display: block;
@@ -35,6 +35,9 @@
     }
     .services-img{
         margin-bottom: 35px;
+    }
+    .plans{
+        height: auto;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -67,6 +70,12 @@
     }
     .start-img-fix{
         max-width: 150px;
+    }
+    .section-title{
+        font-size: 25px;
+    }
+    .section-caption{
+        font-size: 17px;
     }
     
 }
