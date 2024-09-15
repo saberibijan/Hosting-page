@@ -77,5 +77,23 @@
     .section-caption{
         font-size: 17px;
     }
-    
+    .comment{
+        display: block !important;
+        text-align: center;
+    }
+    .comment-img{
+        margin: 15px auto;
+    }
+    footer{
+        text-align: center;
+    }
+    .footer-bottom{
+        justify-content: center !important;
+    }
+    .social{
+        justify-content: center;
+    }
+    .accepts{
+        justify-content: center;
+    }
 }

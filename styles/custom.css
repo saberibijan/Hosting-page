@@ -2,7 +2,9 @@
     margin-right: auto;
     margin-left: auto;
 }
-
+.mt-80{
+    margin-top: 80px;
+}
 .m-0 {
     margin: 0 !important;
 }
@@ -33,6 +35,11 @@
     padding-top: 0 !important;
 }
 
+.py-70{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
 .w-100 {
     width: 100% !important;
 }
@@ -47,6 +54,9 @@
 
 .d-flex {
     display: flex !important;
+}
+.flex-wrap{
+    flex-wrap: wrap;
 }
 
 .text-white {
@@ -80,6 +90,7 @@
     background-color: #93A5FF;
     border-radius: 5px;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 @media only screen and (min-width: 576px) {
