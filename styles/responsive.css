@@ -14,6 +14,10 @@
     }
     .menu-item{
         margin: 25px 15px !important;
+        padding: 5px 0 !important;
+    }
+    .menu-item.active{
+        background-color: transparent;
     }
     .login-btn{
         display: block;
@@ -39,6 +43,7 @@
     .plans{
         height: auto;
     }
+    
 }
 @media only screen and (max-width: 768px) {
     .img{

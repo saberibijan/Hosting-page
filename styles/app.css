@@ -25,7 +25,8 @@ height: 757px;
 .nav{
 display: flex;
 justify-content: space-between;
-padding: 35px 0;
+padding-bottom: 35px;
+align-items: flex-end;
 }
 .logo-wrapper{
 
@@ -41,10 +42,17 @@ display: flex;
 z-index: 999;
 }
 .menu-item{
-margin: 0 25px;
+    margin-right:20px;
+    padding: 40px 18px 15px 18px;
+}
+.menu-item_navi.active{
+    background-color: #93A5FF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .main-menu .menu-item:last-child{
     margin-right: 0;
+    padding-right: 0;
 }
 
 .menu-link{
@@ -56,6 +64,15 @@ margin: 0 25px;
     padding: 10px 15px;
     border-radius: 5px;
     font-family: 'Nunito Bold';
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.login-btn:hover{
+    color: #fff;
+    background-color: #93A5FF;
 }
 .login-btn span{
     margin-left: 10px;
@@ -105,6 +122,14 @@ margin: 0 25px;
 }
 .header-btn{
     margin-left: 25px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.header-btn:hover{
+    background-color: #a3b1f6;
 }
 .flex-wrapper{
     flex-basis: 380px;
@@ -214,10 +239,21 @@ margin: 0 25px;
     margin-left: auto;
     display: block;
     width: 155px;
+    padding: 14px 0 14px 15px;
+    text-align: left;
 }
 .start-btn i{
     margin-left: 10px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
 }
+.start-btn:hover i{
+    margin-left: 15px;
+}
+
 .start-img-fix{
     position: absolute;
     top: 15px;
@@ -311,10 +347,30 @@ margin: 0 25px;
     width: 185px;
     margin-top: 40px;
     margin-bottom: 25px;
+    padding: 14px 0 14px 15px;
+    text-align: left;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.plan-btn:hover{
+    background-color: #93A5FF;
+    color: #F7F8FF;
 }
 .plan-btn i{
     color: #93A5FF;
     margin-left: 10px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.plan-btn:hover i{
+    margin-left: 15px;
+    color: #F7F8FF;
 }
 
 
@@ -334,9 +390,17 @@ margin: 0 25px;
     width: 160px;
 }
 .btn-clients{
-display: block;
-width: 152px;
-margin: 0 auto;
+    display: block;
+    width: 152px;
+    margin: 0 auto;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.btn-clients:hover{
+    background-color: #a3b1f6;
 }
 
 
@@ -459,7 +523,7 @@ footer{
     background-repeat: no-repeat;
     background-position: center top;
     color: #fff;
-    padding: 140px 0 80px 0;
+    padding: 140px 0 40px 0;
 }
 footer p{
     line-height: 28px;
@@ -509,7 +573,7 @@ footer .footer-bottom > div:last-child > a{
     width: 35% !important;
 }
 .footer-bottom{
-    margin-top: 35px;
+    margin-top: 60px;
     /* align-items: end; */
 }
 .footer-logo{
@@ -530,4 +594,6 @@ margin-right: 10px;
     margin: 0 15px;
 }
 
-
+footer a:hover{
+    text-decoration: underline;
+}
