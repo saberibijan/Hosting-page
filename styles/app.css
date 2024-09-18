@@ -1,5 +1,6 @@
 html{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 *, *::after, *::before{
     box-sizing: inherit;
@@ -596,4 +597,40 @@ margin-right: 10px;
 
 footer a:hover{
     text-decoration: underline;
+}
+
+
+.to-top{
+    position: fixed;
+    right: 74PX;
+    bottom: 15px;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #93A5FF;
+    opacity: 0;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    text-decoration: none !important;
+    background-color: #525b86;
+}
+
+.to-top.active{
+    opacity: 1;
+    bottom: 40px;
+}
+
+.fa-angle-up::before{
+    font-size: 30px ;
 }
